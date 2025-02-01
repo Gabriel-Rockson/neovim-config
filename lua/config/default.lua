@@ -40,6 +40,9 @@ vim.opt.lazyredraw = true
 
 vim.opt.scrolloff = 5
 
+-- Obsidian needs conceallevel to be 1 see issue; https://github.com/epwalsh/obsidian.nvim/issues/286
+vim.opt.conceallevel = 1
+
 -- Disable certain features for large files
 vim.cmd([[
   let g:loaded_matchparen = 1

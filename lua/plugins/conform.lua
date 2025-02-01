@@ -1,4 +1,5 @@
 -- Autoformat
+-- https://github.com/stevearc/conform.nvim?tab=readme-ov-file#formatters
 
 return {
 	"stevearc/conform.nvim",
