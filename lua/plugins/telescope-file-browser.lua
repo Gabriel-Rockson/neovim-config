@@ -1,7 +1,6 @@
 --lazy
 return {
 	"nvim-telescope/telescope-file-browser.nvim",
-	lazy = true,
 	dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
 	config = function()
 		local fb_actions = require("telescope._extensions.file_browser.actions")
@@ -72,7 +71,7 @@ return {
 			},
 		})
 
-		vim.keymap.set("n", "<space>fb", ":Telescope file_browser<CR>")
+		vim.keymap.set("n", "<space>tf", ":Telescope file_browser<CR>")
 
 		-- To get telescope-file-browser loaded and working with telescope,
 		-- you need to call load_extension, somewhere after setup function:
