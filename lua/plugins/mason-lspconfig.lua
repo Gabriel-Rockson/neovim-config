@@ -18,6 +18,7 @@ return {
 			"stylua", -- Used to format Lua code
 			"ruff",
 			"tailwindcss-language-server",
+			"prettierd",
 		})
 
 		require("mason-tool-installer").setup({

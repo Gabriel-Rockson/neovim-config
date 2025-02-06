@@ -1,6 +1,7 @@
 --lazy
 return {
 	"nvim-telescope/telescope-file-browser.nvim",
+	lazy = true,
 	dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
 	config = function()
 		local fb_actions = require("telescope._extensions.file_browser.actions")

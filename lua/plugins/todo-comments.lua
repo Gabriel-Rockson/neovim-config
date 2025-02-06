@@ -2,6 +2,7 @@
 return {
 	"folke/todo-comments.nvim",
 	event = "VimEnter",
+	lazy = true,
 	dependencies = { "nvim-lua/plenary.nvim" },
 	opts = {
 		-- your configuration comes here
